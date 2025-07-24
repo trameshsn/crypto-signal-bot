@@ -1,0 +1,8 @@
+app = "crypto-signal-bot"
+primary_region = "syd"
+
+[build]
+  image = "dockerfile"
+
+[deploy]
+  release_command = "python main.py --check"
